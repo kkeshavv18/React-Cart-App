@@ -1,0 +1,17 @@
+:root{
+    --body_background : white;
+    --body_color : black;
+    --card_border : red;
+}
+
+[data-theme='dark']{
+    --body_background : black;
+    --body_color :  white;
+    --card_border : yellow;
+}
+*{
+    transition: all 0.2s ease-out;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
